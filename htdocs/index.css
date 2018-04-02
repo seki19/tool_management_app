@@ -1,0 +1,15 @@
+.container{
+    margin-top: 40px;
+
+}
+.container__new{
+    font-size: 40px;
+    padding-left: 20%;
+    margin-bottom: 20px;
+}
+.contaier__newcolumn{
+    font-size: 20px;
+}
+.container_table{
+    margin-top: 20px;
+}

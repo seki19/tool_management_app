@@ -1,0 +1,109 @@
+label{
+    display:block;
+    position:relative;
+    padding-left:1em;
+    line-height:2em;
+    font-size:20px;
+}
+label input{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    margin:auto;
+}
+nav li{
+    float:left;
+    text-align: center; /*文字を中央に*/
+
+}
+li.home{
+    /*overflow: hidden;*/
+    /*float:left;*/
+    /*margin-left: 32px;*/
+    /*margin-right: 2px;*/
+    width:12%;
+    text-align: center; /*文字を中央に*/
+
+}
+.content{
+    /*float:left;*/
+    font-size: 24px;
+    width:18%;
+    /*margin-left: 2%;*/
+}
+.logout{
+    float:right;
+    margin-left: 16px;
+    margin-right: 32px;
+    width:10%;
+    /*height: 10%;*/
+    text-align: center; /*文字を中央に*/
+}
+#check{
+    background-color: orange;   /*背景色の指定*/
+    color: #fff;    /*文字色の変更*/
+}
+p{
+    font-size: 150%;
+}
+h1{
+    font-size: 120%;
+}
+h3{
+    font-size: 130%;
+}
+.rental_log_self{
+    color: orange;
+}
+p.usertool{
+    color: orange;
+}
+.body{
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 2%;
+}
+.overview{
+    font-size: 14px;
+}
+.rental_log_content li{
+    height: 40px;
+    font-size: 16px;
+}
+.rental_log_title{
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.rental_log_contents_location{
+    padding-left: 10px;
+}
+.rental_log_contents_name{
+    font-weight: bold;
+}
+th{
+    border-bottom: 1px solid black;
+}
+td{
+    padding:10px;
+
+}
+table{
+    font-size: large;
+    border-spacing: 20px 5px;
+}
+nav a:hover{
+background-color: orange;   /*背景色の指定*/
+color: #fff;    /*文字色の変更*/
+transition: 0.5s;   /*ホバー時の動きをなめらかにする*/
+}
+nav a{
+display: block; /*1つのli全体にリンクを有効にする*/
+text-decoration: none;  /*ブラウザ標準のリンク装飾をオフに*/
+color:#313131;  /*文字色の変更*/
+font-size: 80%;    /*フォントサイズの指定*/
+letter-spacing: 5px;    /*文字と文字の間隔をあける*/
+font-weight: 400;   /*文字の太さを調整*/
+line-height: 60px;  /*行間の指定（ナビボタンの高さ指定）*/
+}
